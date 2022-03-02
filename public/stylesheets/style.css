@@ -9,12 +9,15 @@ body, html {
   font-family: sans-serif;
   color: #333;
 }
-
+ol li {
+  list-style-type: none;
+}
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: red;
   font-weight: bold;
   transition: color .1s;
+  margin: 10px;
 }
 
 a:hover {
@@ -79,7 +82,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1%;
+  padding: 30px;
+  font-size: 28px;
 }
 
 header h1 {
@@ -97,7 +101,7 @@ main {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: red;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -131,15 +135,6 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
-}
-
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color .1s;
-}
-
-.upvote-btn:hover {
-  background-color: #1f9c13;
 }
 
 .comment-form {

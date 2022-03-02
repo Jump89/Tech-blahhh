@@ -1,35 +1,42 @@
-<form class="login-form">
-  <h1>Login</h1>
-  <div>
-    <label for="email-login">email:</label>
-    <input type="text" id="email-login" />
+<div class="d-flex flex-columns justify-content-between text-center m-5">
+  <div class='col-12 col-md-6 border p-3'>
+    <h1>Login</h1>
+    <form class="login-form">
+      <div class="form-group">
+        <label for="email-login">E-mail:</label>
+        <input class='form-control' type="text" id="email-login" />
+      </div>
+      <div class="form-group">
+        <label for="password-login">Password:</label>
+        <input class='form-control' type="password" id="password-login" />
+      </div>
+      <div>
+        <button class='btn btn-danger'type="submit">Login</button>
+      </div>
+    </form>
   </div>
-  <div>
-    <label for="password-login">password:</label>
-    <input type="password" id="password-login" />
-  </div>
-  <div>
-    <button type="submit">login</button>
-  </div>
-</form>
-
-<form class="signup-form">
+ <div class='col-12 col-md-6 border p-3'>
   <h1>Sign Up</h1>
-  <div>
-    <label for="username-signup">username:</label>
-    <input type="text" id="username-signup" />
-  </div>
-  <div>
-    <label for="email-signup">email:</label>
-    <input type="text" id="email-signup" />
-  </div>
-  <div>
-    <label for="password-signup">password:</label>
-    <input type="password" id="password-signup" />
-  </div>
-  <div>
-    <button type="submit">signup</button>
-  </div>
-</form>
+  <form class="signup-form">
+    <div class="form-group">
+      <label for="username-signup">Username:</label>
+      <input class='form-control' type="text" id="username-signup" />
+    </div>
+    <div class="form-group">
+      <label for="email-signup">E-mail:</label>
+      <input class='form-control' type="text" id="email-signup" />
+    </div>
+    <div class="form-group">
+      <label for="password-signup">Password:</label>
+      <input class='form-control' type="password" id="password-signup" />
+    </div>
+    <div>
+      <button class="btn btn-danger" type="submit">Sign Up</button>
+    </div>
+  </form>
+ </div>
+
+</div>
+
 
 <script src="/javascript/login.js"></script>
